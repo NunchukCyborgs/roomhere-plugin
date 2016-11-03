@@ -1,10 +1,10 @@
-import { RoomhereEmbedPage } from './app.po';
+import { RoomherePluginPage } from './app.po';
 
-describe('roomhere-embed App', function() {
-  let page: RoomhereEmbedPage;
+describe('roomhere-plugin App', function() {
+  let page: RoomherePluginPage;
 
   beforeEach(() => {
-    page = new RoomhereEmbedPage();
+    page = new RoomherePluginPage();
   });
 
   it('should display message saying app works', () => {

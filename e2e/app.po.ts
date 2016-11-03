@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class RoomhereEmbedPage {
+export class RoomherePluginPage {
   navigateTo() {
     return browser.get('/');
   }

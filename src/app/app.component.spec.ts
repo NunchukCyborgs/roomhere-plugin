@@ -3,7 +3,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
-describe('App: RoomhereEmbed', () => {
+describe('App: RoomherePlugin', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
@@ -28,6 +28,6 @@ describe('App: RoomhereEmbed', () => {
     let fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     let compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('app works!');
+    expect(compiled.querySelector('h1').textContent).toContain('Properties!');
   }));
 });
